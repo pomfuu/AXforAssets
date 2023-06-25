@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="#023789"
+        app:cardCornerRadius="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp">
+
+            <TextView
+                android:id="@+id/terms1"
+                android:lineSpacingExtra="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sweetsanspromedium"
+                android:text="Terms - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis nisl auctor, pretium lectus in, sagittis nisl. Duis vel ullamcorper dolor. In dignissim orci at metus tempus, rutrum euismod est condimentum. Proin ultricies erat id gravida malesuada."
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:lineSpacingExtra="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/terms1"
+                android:fontFamily="@font/sweetsanspromedium"
+                android:text="Pellentesque suscipit commodo commodo. Fusce vitae felis maximus, pharetra ante in, tincidunt erat. Aenean ac odio est. Aliquam consequat leo in justo sollicitudin, id sollicitudin velit posuere. Nullam bibendum ipsum eu bibendum mollis."
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

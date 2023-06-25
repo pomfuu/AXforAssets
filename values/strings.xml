@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UX-Project</string>
+    <string-array name="payment_items">
+        <item>Choose Payment</item>
+        <item>Visa</item>
+        <item>Master Card</item>
+        <item>Credit Card</item>
+    </string-array>
+</resources>
